@@ -1,0 +1,26 @@
+{
+  "name": "gulp-susy-scss",
+  "version": "0.0.1",
+  "authors": [
+    "Héctor León <hectorleon.designer@gmail.com>"
+  ],
+  "description": "",
+  "keywords": [
+    "sass",
+    "scss",
+    "framework",
+    "frontend",
+    "front-end"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "susy": "~2.2.5"
+  }
+}

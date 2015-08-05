@@ -1,0 +1,45 @@
+
+
+
+
+
+/*------------------------------------*\
+    			$GRID
+\*------------------------------------*/
+
+
+
+//           $Adding susy             \\
+// ___________________________________//
+
+@import "../../../../bower_components/susy/sass/susy";
+
+
+$susy: (
+  columns	: 14,
+  gutters : 1/4,
+  global-box-sizing: border-box
+);
+
+
+.wrap {
+	@include container;
+}
+
+
+.section--env-summary {
+	@include span(2 of 14);
+	background-color: blue;
+	h2 { color: red;}
+}
+
+
+
+
+
+// Testing prefixer task
+.testing {
+  display: flex;
+  width: percentage(5/7); 
+  // Percentage is a Sass function that will be evaluated to CSS when compiled
+}

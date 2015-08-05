@@ -1,0 +1,30 @@
+{
+  "name": "gulp-susy-scss",
+  "version": "0.0.2",
+  "description": "\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@stash.srv.cat:7999/om/eco-style-framework.git"
+  },
+  "keywords": [
+    "sass",
+    "scss",
+    "framework",
+    "frontend",
+    "front-end"
+  ],
+  "author": "Héctor León",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.8.2",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.5.2",
+    "sassdoc": "^2.1.15"
+  }
+}
